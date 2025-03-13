@@ -15,10 +15,10 @@ body {
 body {
   background: linear-gradient(
     -45deg,
-    #afecff,
-    hsl(187, 100%, 83%),
-    #c2efff,
-    #ffffff
+    #DFA34C,
+    #959295,
+    #DFA34C,
+    #959295
   );
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
@@ -28,13 +28,11 @@ body {
 }
 
 main {
-  background:center url(images/fundonovo.jpg);
-  border: 0.25px solid #404247;
+  background: left top url(images/fundo1.jpg);
+  border: 0.5px solid #404247;
   width: 375px;
   height: 812px;
   border-radius: 15px;
-
-
 }
 
 .container {
@@ -43,23 +41,34 @@ main {
   text-align: center;
   color: var(--grey);
 }
+
 .logo {
   margin: 0 auto;
 }
+
 .logo img {
   margin-top: 6rem;
+  margin-bottom: 6rem;
   width: 250px;
   border-radius: 10px;
   border: 10px;
 }
 
 .info {
-  background-color: #ffffff;
-  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 6rem;
+  border: 2px solid  #ffffff;
 }
 
-.info h3{
-  padding: 10px;
+.info p{
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 15px;
+  text-shadow: #000000 1px 1px 0.5px;
+  
 }
 
 h1 {
@@ -68,24 +77,18 @@ h1 {
   margin: 20px 0 -20px 0;
 }
 
-h3 {
-  color: #606268;
-  font-size: 19px;
-  margin: 88px 0px 100px 0px;
-}
-
 .medias {
   max-width: 250px;
   margin: auto;
   text-align: center;
 }
 
-ul{
+/* ul{
   background-color: #ffffff;
   margin: 2px;
   padding: 10px;
   border-radius: 10px;
-}
+} */
 
 ul > li {
   list-style: none;
@@ -97,10 +100,15 @@ ul > li {
   border-radius: 7px;
 }
 
-.facebook img {
+.whatsapp img {
+  border-radius: 7px;
+}
+
+/* .facebook img {
   border-radius: 7px;
 }
 
 .twitter img {
   border-radius: 7px;
 }
+ */
