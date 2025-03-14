@@ -28,7 +28,7 @@ body {
 }
 
 main {
-  background: left top url(images/fundo1.jpg);
+  background: left url(images/fundo2.png);
   border: 0.5px solid #404247;
   width: 375px;
   height: 812px;
