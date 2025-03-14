@@ -28,36 +28,47 @@ body {
 }
 
 main {
-  background: left url(images/fundo2.png);
-  border: 0.5px solid #404247;
+  background: bottom left url(images/fundo2.png);
+  border: 0.2px solid #ffffff;
   width: 375px;
   height: 812px;
   border-radius: 15px;
 }
 
 .container {
-  max-width: 250px;
+  max-width: 275px;
   margin: auto;
   text-align: center;
-  color: var(--grey);
 }
 
-.logo {
-  margin: 0 auto;
+.caixa{
+  padding: 10px;
+  margin-top: 6rem;
+  height: 8rem;
+  width: 16rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  opacity: 60%;
 }
 
 .logo img {
-  margin-top: 6rem;
+
+  position: absolute;
+  display: block;
+  margin-top: -8.5rem;
   margin-bottom: 6rem;
+  margin-left: 0.8rem;
   width: 250px;
-  border-radius: 10px;
   border: 10px;
 }
+
+
 
 .info {
   display: inline-block;
   padding: 5px;
   border-radius: 20px;
+  margin-top: 6rem;
   margin-bottom: 6rem;
   border: 2px solid  #ffffff;
 }
@@ -66,34 +77,21 @@ main {
   color: #ffffff;
   font-size: 19px;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px;
   text-shadow: #000000 1px 1px 0.5px;
   
 }
 
-h1 {
-  color: #404247;
-  text-shadow: #ffffff 0.25px 0.25px;
-  margin: 20px 0 -20px 0;
-}
-
 .medias {
-  max-width: 250px;
+  max-width: 275px;
   margin: auto;
   text-align: center;
 }
 
-/* ul{
-  background-color: #ffffff;
-  margin: 2px;
-  padding: 10px;
-  border-radius: 10px;
-} */
-
 ul > li {
   list-style: none;
   display: inline-block;
-  padding: 20px;
+  padding: 35px;
 }
 
 .instagram img {
@@ -103,12 +101,3 @@ ul > li {
 .whatsapp img {
   border-radius: 7px;
 }
-
-/* .facebook img {
-  border-radius: 7px;
-}
-
-.twitter img {
-  border-radius: 7px;
-}
- */
